@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="音楽によって日常の景色や感情が変わる瞬間を表現した、私の好きなこと紹介ページです。">
+  <meta name="theme-color" content="#10151c">
+  <link rel="icon" href="data:,">
+  <title>私の好きなこと｜私と音楽</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">本文へ移動</a>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+  <header class="hero" id="top">
+    <div class="hero__media" aria-hidden="true">
+      <img class="hero__image" src="images/main.jpg" alt="">
+      <div class="hero__veil"></div>
+    </div>
+
+    <p class="edge-note edge-note--left" aria-hidden="true">PERSONAL NOTES / MUSIC &amp; MEMORY</p>
+    <p class="edge-note edge-note--right" aria-hidden="true">01 — LISTENING TO THE EVERYDAY</p>
+
+    <div class="hero__content">
+      <p class="hero__eyebrow">MY FAVORITE THING</p>
+      <h1 class="hero__title">
+        <span>私の好きなこと</span>
+        <strong>私と音楽</strong>
+      </h1>
+      <p class="hero__copy">音楽は、景色の見え方を<br>少しだけ変える。</p>
+    </div>
+
+    <a class="scroll-cue" href="#introduction">
+      <span>SCROLL TO LISTEN</span>
+      <i aria-hidden="true"></i>
+    </a>
+  </header>
+
+  <main id="main-content">
+    <section class="intro section" id="introduction" aria-labelledby="intro-title">
+      <div class="section-index reveal" aria-hidden="true">01 / INTRODUCTION</div>
+      <h2 class="visually-hidden" id="intro-title">音楽と日常について</h2>
+      <div class="intro__text">
+        <p class="reveal reveal--line">朝の電車、ひとりで歩く夜、</p>
+        <p class="reveal reveal--line">何もしたくない午後。</p>
+        <p class="reveal reveal--line">同じ景色でも、流れている音楽によって</p>
+        <p class="reveal reveal--line">少し違って見える。</p>
+        <p class="reveal reveal--line intro__emphasis">私にとって音楽は、気分を変えるためのものではなく、</p>
+        <p class="reveal reveal--line intro__emphasis">今いる場所の感じ方を変えてくれるものです。</p>
+      </div>
+    </section>
+
+    <section class="scenes section" aria-labelledby="scenes-title">
+      <header class="section-heading reveal">
+        <div>
+          <p class="section-index">02 / EVERYDAY SCENES</p>
+          <h2 id="scenes-title">日常の中の音楽</h2>
+        </div>
+        <p>音は、時間に輪郭を与える。<br>同じ一日を、少し違う一日にする。</p>
+      </header>
+
+      <article class="scene scene--left reveal">
+        <figure class="scene__visual">
+          <img src="images/gallery01.jpg" alt="夕暮れの街を歩くときの抽象的な風景" loading="lazy">
+          <figcaption>WALKING / 18:24</figcaption>
+        </figure>
+        <div class="scene__body">
+          <p class="scene__number">01</p>
+          <h3>歩くとき</h3>
+          <p>いつもの道を、映画のワンシーンのように感じさせてくれる音楽。歩幅とリズムが重なると、目的地までの時間さえ作品の一部になる。</p>
+        </div>
+      </article>
+
+      <article class="scene scene--right reveal">
+        <figure class="scene__visual">
+          <img src="images/gallery02.jpg" alt="窓の外を眺めながら考える時間を表した抽象的な風景" loading="lazy">
+          <figcaption>THINKING / 00:47</figcaption>
+        </figure>
+        <div class="scene__body">
+          <p class="scene__number">02</p>
+          <h3>考えるとき</h3>
+          <p>言葉にならない感情を、急いで答えに変えずに置いておける音楽。思考の隙間に音が入り込み、絡まった気持ちをゆっくりほどいていく。</p>
+        </div>
+      </article>
+
+      <article class="scene scene--left scene--last reveal">
+        <figure class="scene__visual">
+          <img src="images/gallery03.jpg" alt="静かな部屋で何もせず過ごす時間を表した抽象的な風景" loading="lazy">
+          <figcaption>STILLNESS / 15:08</figcaption>
+        </figure>
+        <div class="scene__body">
+          <p class="scene__number">03</p>
+          <h3>何もしないとき</h3>
+          <p>沈黙の代わりに、静かにそばにいてくれる音楽。何かを始めなくてもいい時間を、そのまま肯定してくれる。</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="mood section" id="mood" data-mood="float" aria-labelledby="mood-section-title">
+      <div class="mood__ambient" aria-hidden="true">
+        <span class="mood__orb mood__orb--one"></span>
+        <span class="mood__orb mood__orb--two"></span>
+        <span class="mood__line"></span>
+      </div>
+
+      <header class="section-heading section-heading--mood reveal">
+        <div>
+          <p class="section-index">03 / SOUNDS THAT SHAPED ME</p>
+          <h2 id="mood-section-title">私を形づくった音</h2>
+        </div>
+        <p>いま聴きたい感覚を選んでください。<br>景色の温度が、静かに切り替わります。</p>
+      </header>
+
+      <div class="mood__selector reveal" role="tablist" aria-label="音楽から受ける感覚">
+        <button type="button" class="mood-button is-active" role="tab" aria-selected="true" aria-controls="mood-panel" data-mood-button="float">
+          <span>浮かぶ</span><small>FLOAT</small>
+        </button>
+        <button type="button" class="mood-button" role="tab" aria-selected="false" aria-controls="mood-panel" data-mood-button="deep">
+          <span>沈む</span><small>DEEP</small>
+        </button>
+        <button type="button" class="mood-button" role="tab" aria-selected="false" aria-controls="mood-panel" data-mood-button="release">
+          <span>ほどける</span><small>RELEASE</small>
+        </button>
+      </div>
+
+      <div class="mood__panel reveal" id="mood-panel" role="tabpanel" tabindex="0" aria-live="polite">
+        <div class="mood__image-wrap">
+          <img id="mood-image" src="images/mood-float.jpg" alt="淡い光の中を漂うような抽象風景">
+          <p class="mood__caption" id="mood-caption">A SOFT DRIFT THROUGH THE CITY</p>
+        </div>
+        <div class="mood__content">
+          <p class="mood__label" id="mood-label">FEELING 01</p>
+          <h3 id="mood-title">浮かぶ音</h3>
+          <p id="mood-description">身体が少し軽くなり、景色の中を漂うように感じる音。現実から離れるのではなく、現実との距離をほんの少しだけ広げてくれる。</p>
+          <div class="mood__artists">
+            <p>ARTISTS &amp; ALBUMS IN THIS FEELING</p>
+            <ul id="mood-artists">
+              <li class="artist-card">
+                <p class="artist-card__name">Hiatus Kaiyote</p>
+                <a class="artist-card__cover" href="https://hiatuskaiyote.com/" target="_blank" rel="noopener noreferrer" aria-label="Hiatus Kaiyoteの公式サイトを新しいタブで開く">
+                  <img src="images/albums/hiatus-kaiyote-choose-your-weapon.jpg" alt="Hiatus Kaiyote『Choose Your Weapon』のアルバムジャケット" loading="lazy">
+                  <span aria-hidden="true">↗</span>
+                </a>
+                <p class="artist-card__album">Choose Your Weapon</p>
+              </li>
+              <li class="artist-card">
+                <p class="artist-card__name">The Avalanches</p>
+                <a class="artist-card__cover" href="https://www.theavalanches.com/" target="_blank" rel="noopener noreferrer" aria-label="The Avalanchesの公式サイトを新しいタブで開く">
+                  <img src="images/albums/the-avalanches-since-i-left-you.jpg" alt="The Avalanches『Since I Left You』のアルバムジャケット" loading="lazy">
+                  <span aria-hidden="true">↗</span>
+                </a>
+                <p class="artist-card__album">Since I Left You</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reason section" aria-labelledby="reason-title">
+      <p class="reason__side" aria-hidden="true">WHY I KEEP LISTENING</p>
+      <div class="reason__inner">
+        <p class="section-index reveal">04 / THE REASON</p>
+        <h2 id="reason-title" class="reason__title reveal">
+          <span>答えではなく、</span>
+          <strong>感情の居場所を</strong>
+          <span>つくってくれる。</span>
+        </h2>
+        <div class="reason__copy reveal">
+          <p>音楽は、答えを教えてくれるわけではありません。</p>
+          <p>それでも、言葉にできなかった感情に形を与えてくれます。</p>
+          <p>嬉しいときだけでなく、迷っているときや何も考えたくないときにも、音楽はその時間を否定せずに受け止めてくれます。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery section" aria-labelledby="gallery-title">
+      <header class="section-heading reveal">
+        <div>
+          <p class="section-index">05 / VISUAL NOTES</p>
+          <h2 id="gallery-title">音楽を聴く時間</h2>
+        </div>
+        <p>記憶に残るのは、曲名だけではない。<br>そのとき見ていた光や、空気の温度も残っている。</p>
+      </header>
+
+      <div class="gallery__grid">
+        <figure class="gallery__item gallery__item--tall reveal">
+          <img src="images/gallery01.jpg" alt="夕暮れの街とにじむ光" loading="lazy">
+          <figcaption><span>01</span><p>知らない街でも、好きな曲が流れると少しだけ自分の場所になる。</p></figcaption>
+        </figure>
+        <figure class="gallery__item gallery__item--wide reveal">
+          <img src="images/gallery02.jpg" alt="雨の夜に窓へ映る光" loading="lazy">
+          <figcaption><span>02</span><p>雨音と低いベースが重なる夜。</p></figcaption>
+        </figure>
+        <figure class="gallery__item gallery__item--small reveal">
+          <img src="images/gallery03.jpg" alt="静かな部屋と柔らかな光" loading="lazy">
+          <figcaption><span>03</span><p>何もしない時間にも、名前がつく。</p></figcaption>
+        </figure>
+        <figure class="gallery__item gallery__item--square reveal">
+          <img src="images/gallery04.jpg" alt="夜道を照らす街灯と深い青の空" loading="lazy">
+          <figcaption><span>04</span><p>帰り道が、今日いちばん長く続けばいいと思う。</p></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="film section" id="film" aria-labelledby="film-title">
+      <div class="film__heading reveal">
+        <p class="section-index">06 / SHORT FILM</p>
+        <h2 id="film-title">A moment<br>with music</h2>
+        <p>音楽の数だけ世界がある。<br>あなたは数多の世界を行き来できる。</p>
+      </div>
+      <div class="film__frame reveal">
+        <video id="music-video" controls preload="metadata" poster="images/main.jpg">
+          <source src="video/music.mp4" type="video/mp4">
+          お使いのブラウザは動画再生に対応していません。
+        </video>
+        <div class="film__status" aria-hidden="true">
+          <span></span>
+          <p>NOW PLAYING</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing section" aria-labelledby="closing-title">
+      <p class="section-index reveal">07 / AFTER THE SOUND</p>
+      <h2 id="closing-title" class="visually-hidden">まとめ</h2>
+      <p class="closing__text reveal">好きな音楽は、これからも変わっていくと思います。けれど、音楽によって見慣れた景色が少し違って見えた瞬間は、これからも自分の中に残り続けます。</p>
+      <div class="closing__line reveal" aria-hidden="true"></div>
+      <p class="closing__quote reveal">音楽は、景色の見え方を<br>少しだけ変える。</p>
+      <a class="back-to-top reveal" href="#top">BACK TO THE BEGINNING <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>MY FAVORITE THING — MUSIC</p>
+    <p><time datetime="2026">2026</time> / PERSONAL WEB PROJECT</p>
+  </footer>
+</body>
+</html>
